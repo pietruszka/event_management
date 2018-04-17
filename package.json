@@ -1,0 +1,28 @@
+{
+  "name": "event_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietruszka/event_management.git"
+  },
+  "author": "Piotr Pietruszka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pietruszka/event_management/issues"
+  },
+  "homepage": "https://github.com/pietruszka/event_management#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.15",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3"
+  }
+}
