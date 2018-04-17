@@ -15,11 +15,7 @@ class EventModel {
                 description: String,
                 dateStart: Date,
                 dateEnd: Date,
-                participants: {
-                    type: Number,
-                    min: 0,
-                    default: 0,
-                },
+                participants: [mongoose.Schema.Types.ObjectId],
                 participantsMax: {
                     type: Number,
                     min: 0,
