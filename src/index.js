@@ -13,7 +13,7 @@ class Application {
 
     init() {
         this.app.listen(() => {
-            console.log(`Servier is running on port: ${config.PORT}`);
+            console.log(`Server is running on port: ${config.PORT}`);
         })
 
         this.app.use(middleware.getRouter());

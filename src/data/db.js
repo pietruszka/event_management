@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
 const config = require('./config');
+
 const UserModel = require('./../user/model');
+const EventModel = require('./../user/model');
 
 class DB {
     constructor() {
@@ -33,6 +35,7 @@ class DB {
     }
     loadSchame() {
         this.userModel = new UserModel(this.connection).getModel();
+        this.eventModel = new EventModel(this.connection).getModel();
     }
 }
 
