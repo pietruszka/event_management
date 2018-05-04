@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const config = require('./config');
 
 const UserModel = require('./../user/model');
-const EventModel = require('./../user/model');
+const EventModel = require('./../event/model');
 
 class DB {
     constructor() {
