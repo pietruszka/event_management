@@ -3,6 +3,7 @@ const {Router} = require('express')
 class UserRouter {
     constructor() {
         this.router = Router();
+
     }
 
     getRouter() {
