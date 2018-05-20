@@ -6,4 +6,5 @@ module.exports = {
         USER: 'admin',
         PASSWORD: 'admin'
     },
+    'secret' : 'XGrJWxVmnB2sBxFvcz6EW2xz'
 };
