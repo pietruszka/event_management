@@ -16,7 +16,7 @@ class UserModel {
                 email: String,
             },
             facebook: {
-                id: String,
+                facebookId: String,
                 fullname: String
             },
             events: [mongoose.Schema.Types.ObjectId],
